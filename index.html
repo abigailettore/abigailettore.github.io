@@ -2,50 +2,103 @@
 <html lang="en-us">
 
 <head>
-  <meta charset="UTF-8">
-  <title>About | Your Name</title>
-  <link rel="stylesheet" type="text/css" href="assets/style.css">
-  <!-- <style>
-    body {
-      background-image: url("assets/images/concrete_seamless.png");
-    }
+ <meta charset="UTF-8">
+ <title>About | Your Name</title>
+ <link href="assets/style.css" rel="stylesheet" type="text/css" />
+
+ <!-- <style>
+   body {
+     background-image: url("assets/images/concrete_seamless.png");
+   }
 </style> -->
 </head>
 
 <body>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Your Name</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
+ <header id="masthead">
+   <div class="container">
+     <a href="index.html" id="logo">Abigail Ettore</a>
+     <nav>
+       <a href="index.html">About</a>
+       <a href="https://github.com/abigailettore">Github</a>
+       <a href="https://www.linkedin.com/in/abigail-ettore-025a2b178/">LinkedIn</a>
+     </nav>
+   </div>
+ </header>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
+ <div class="container container-fluid contain-top">
+   <section class="main-section">
+     <h1>About Me</h1>
 
-      <img src="assets/images/MyPic.jpg" class="auth-image" alt="Your Name">
+     <img src="assets/images/MyPic.jpg" class="auth-image" alt="Your Name">
 
-      <p>Abigail is enrolled at Fordham University pursuing her undergraduate degree in Computer Science. She is also enrolled at Columbia University in the Engineering and Coding Bootcamp. She codes with multiple languages to create and design web applications and games. She wants to gain experience in the technical field through internship opportunities as a web developer and cybersecurity positions to advance a technical career.</p>
+     <p>Abigail is enrolled at Fordham University pursuing her undergraduate degree in Computer Science. She is also enrolled at Columbia University in the Engineering and Coding Bootcamp. She codes with multiple languages to create and design web applications and games. She wants to gain experience in the technical field through internship opportunities as a web developer and cybersecurity positions to advance a technical career.</p>
 
-      <p>Full Stack Developer and a graduate of The Columbia Engineering Coding Boot Camp with a certificate in web development. Adept problem-solver with keen communication skills and an innovative mindset for resolving complex challenges. Proven comprehension of various coding languages like HTML, jQuery, JavaScript to design captivating web applications and games. </p>
+     <p>Full Stack Developer and a graduate of The Columbia Engineering Coding Boot Camp with a certificate in web development. Adept problem-solver with keen communication skills and an innovative mindset for resolving complex challenges. Proven comprehension of various coding languages like HTML, jQuery, JavaScript to design captivating web applications and games. </p>
+   </section>
 
-    
+ </div>
+ <div class="container container-fluid">
+   <section class="main-section">
+     <h1>Portfolio</h1>
 
-    </section>
+     <div class="work">
+       <img src="assets/resume.pdf" alt="Resume">
 
-  </div>
+       <h3>Resume</h3>
+     </div>
+     <div class="work">
+       <img src="assets/images/technics-q-c-640-480-2.jpg" alt= "GiphyChat">
 
-  <footer>
-    <div class="container">
-      Copyright &copy; 
-    </div>
-  </footer>
+       <h3>Giphy Chat</h3>
+     </div>
+     <div class="work">
+       <img src="assets/images/technics-q-c-640-480-5.jpg" alt="TriviaGame">
+
+       <h3>Trivia Game</h3>
+     </div>
+     <div class="work">
+       <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+
+       <h3>Rutgers Info Widget</h3>
+     </div>
+     <div class="work">
+       <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+
+       <h3>Rock Paper Scissors</h3>
+     </div>
+
+   </section>
+</div>
+ <div class="container container-fluid">
+   <section class="main-section width100" >
+     <h1>Contact</h1>
+
+     <form id="contact-form">
+       <ul>
+         <li>
+           <label for="name">Name</label>
+           <input type="text" id="name" name="name" placeholder="Abigail Ettore" required="required">
+         </li>
+         <li>
+           <label for="email">Email</label>
+           <input type="email" id="email" name="email" placeholder="aettore1@fordham.edu" required="required">
+         </li>
+         <li>
+           <label for="message">Message</label>
+           <textarea id="message" name="message" required="required"></textarea>
+         </li>
+       </ul>
+       <input type="submit">
+     </form>
+
+   </section>
+</div>
+ <footer>
+   <div class="container">
+     Copyright &copy;
+   </div>
+ </footer>
 </body>
 
 </html>
