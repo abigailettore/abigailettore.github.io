@@ -12,8 +12,15 @@
 <style>
     body {
       background-image: url("assets/images/background.jpg");
-      background-position:left;
+      background-size: cover;
+      background-size: cover;
+      border-radius: 0px;
+      animation: animatedBackground 60s linear infinite;
     }
+    @keyframes animatedBackground {
+    from { background-position: 0 0; }
+    to { background-position: 100% 0; }
+}
 </style>
 
 
@@ -35,11 +42,21 @@
    <section class="main-section">
      <h1>About Me</h1>
 
-     <img src="assets/images/MyPic.jpg" class="auth-image" alt="Your Name">
+     <img src="assets/images/MyPic.png" class="auth-image" alt="Your Name">
+      <p>Current computer science major at Fordham University pursuing a Bachelor of Science with a minor in communications. 
+        Full Stack Developer and a graduate of the Columbia Engineering Coding Boot Camp with a certificate in website development. 
+        Adept problem-solver with keen communication skills and an innovative mindset for resolving complex challenges.
+      </p>
+     
+        <p> Proven comprehension of various coding languages like C++, HTML5, CSS3, jQuery, JavaScript. Is proficient in Bootstrap, MySql, Node.js, 
+          React and Mango DB to design captivating web applications and games. Also is interested in cybersecurity and has 
+          experience with Axiom, MD5, FTK, and EnCASE.
+        </p>
 
-     <p>Abigail is enrolled at Fordham University pursuing her undergraduate degree in Computer Science. She is also enrolled at Columbia University in the Engineering and Coding Bootcamp. She codes with multiple languages to create and design web applications and games. She wants to gain experience in the technical field through internship opportunities as a web developer and cybersecurity positions to advance a technical career.</p>
-
-     <p>Full Stack Developer and a graduate of The Columbia Engineering Coding Boot Camp with a certificate in web development. Adept problem-solver with keen communication skills and an innovative mindset for resolving complex challenges. Proven comprehension of various coding languages like HTML, jQuery, JavaScript to design captivating web applications and games. </p>
+        <p>Works to further a career in Software Engineering
+          or Cybersecurity to become a key contributer toward tangible
+          and effective changes in technological advancements of the present and future. 
+        </p>
    </section>
 
  </div>
