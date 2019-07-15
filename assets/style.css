@@ -134,15 +134,18 @@ body {
     /* padding-top: 200px; */
   
   }
-  
+
   .main-section {
-  float: left;
+  float: right;
   /* width: 50%; */
-  max-width: 960px;
+  max-width: 75%px;
   padding: 30px;
   margin: 0 0 40px;
   background: #ffffff;
   border: 1px solid #dddddd;
+  }
+  .card{
+    background-color: black;
   }
   .second-section{
     float: right;
@@ -185,7 +188,7 @@ body {
   opacity: 0.8;
   }
   
-  .work h3 {
+  /* .work h3 {
   position: absolute;
   bottom: 20px;
   width: 100%;
@@ -197,11 +200,11 @@ body {
   text-align: center;
   background: #223A5E;
   border-bottom: 0;
-  }
+  } */
   
   .auth-image {
   float: left;
-  width: 200px;
+  width: 300px;
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
