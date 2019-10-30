@@ -29,10 +29,10 @@
    <div class="container">
      <a href="index.html" id="logo">Abigail Ettore</a>
      <nav>
-       <a href="index.html">About me</a>
        <a href="https://github.com/abigailettore">Github</a>
        <a href="https://www.linkedin.com/in/abigail-ettore-025a2b178/">LinkedIn</a>
-       <a href="assets/AbigailEttoreResumeAsOfJuly2019.pdf">Resume</a>     
+       <a href="assets/MostCurrentResumeOct2019.pdf">Resume</a>     
+       <a href="mailto:aettore1@fordham.edu?subject=Website Inquiry">Email Me</a> 
       </nav>
    </div>
  </header>
@@ -61,52 +61,59 @@
 
  </div>
 
- <div class="container container-fluid">
    <section class="main-section">
-     <h1>Portfolio</h1>
-     <div class="work">
+      <h1>Portfolio</h1>
+    <div class="grid-container">
+     <div class="grid-item">
+        <h3>Kwikly</h3>
+         <img src="assets/images/Kwikly.png" class= "img" alt="clickyGame">
+         <a href="https://kwiklyy.herokuapp.com/">Kwikly</a>
+         <br>
+         <a href="https://github.com/kayleighs/Kwikly">Kwikly Repository</a>
+        </div>
+     <div class="grid-item">
         <h3>Giffy Chat</h3>
        <img src="assets/images/Giffy.png" class= "img" alt= "GiphyChat">
        <a href="https://whithedel.github.io/Acela_Express_Team/">GiffyChat</a>
        <br>
        <a href="https://github.com/whithedel/Acela_Express_Team">GiffyChat Repository</a>
       </div>
-     <div class="work">
+     <div class="grid-item">
       <h3>jQuery</h3>
        <img src="assets/images/jquery.png" class= "img" alt="IceCream">
        <a href="https://abigailettore.github.io/unit-4-game/">Unit-4-Game</a>
        <br>
        <a href="https://github.com/abigailettore/unit-4-game">Unit 4 Game Repository</a>
       </div>
-     <div class="work">
+     <div class="grid-item">
       <h3>Giphy-Api</h3>
-       <img src="assets/images/giphy.png" class= "img" alt="GifTastic Netflix">
+       <img src="assets/images/giffyy.png" class= "img" alt="GifTastic Netflix">
        <a href="https://abigailettore.github.io/GifTastic/">GifTastic</a>
        <br>
        <a href="https://github.com/abigailettore/GifTastic">GifTastic Repository</a>
       </div>
-      <div class="work">
+      <div class="grid-item">
         <h3>Node</h3>
          <img src="assets/images/nodejslogo.png" class= "img" alt="Liri Node App">
          <a href="https://abigailettore.github.io/liri-node-app/">Liri Node App</a>
          <br>
          <a href="https://github.com/abigailettore/liri-node-app">Liri Node App Repository</a>
     </div>
-     <div class="work">
+     <div class="grid-item">
       <h3>Firebase</h3>
        <img src="assets/images/firebase.jpg" class= "img" alt="Train Scheduler">
        <a href="https://abigailettore.github.io/train-scheduler/">Train Scheduler</a>
        <br>
        <a href="https://github.com/abigailettore/train-scheduler">Train Scheduler Repository</a>
       </div>
-      <div class="work">
+      <div class="grid-item">
         <h3>SQL</h3>
          <img src="assets/images/sql-badge-512.png" class= "img" alt="Bamazon">
          <a href="https://abigailettore.github.io/node-mysql/.">Bamazon</a>
          <br>
          <a href="https://github.com/abigailettore/node-mysql.git">Bamazon Repository</a>
         </div>
-        <div class="work">
+        <div class="grid-item">
         <h3>Express</h3>
          <img src="assets/images/express.jpg" class= "img" alt="Friend Finder">
          <a href="https://abigailettore.github.io/friend_finder/.">Friend Finder</a>
@@ -119,24 +126,14 @@
          <br>
          <a href="https://github.com/abigailettore/node-mysql.git">Train Scheduler Repository</a>
         </div> -->
-        <div class="work">
-        <h3>BrixBiz</h3>
-         <img src="assets/images/brix.png" class= "img" alt="BrixBiz">
-         <a href="https://projectdlaembgm.herokuapp.com/.">BrixBiz</a>
-         <br>
-         <a href="https://github.com/DanLaZ/BrixBiz.git">BrixBiz Repository</a>
-       
-      </div>
-      <div class="work">
+      <div class="grid-item">
         <h3>React</h3>
          <img src="assets/images/react.png" class= "img" alt="clickyGame">
          <a href="https://abigailettore.github.io/clickyGame/">Clicky Game</a>
          <br>
          <a href="https://github.com/abigailettore/clickyGame.git">Clicky Game Repository</a>
         </div>
-      </div>
-    </div>
-  </div>
+</div>
      <!-- <div class="work">
         <h3>Timers</h3>
          <img src="assets/images/triviaGame.png" alt="Trivia Game The Office">
@@ -144,33 +141,9 @@
          <br>
          <a href="https://github.com/abigailettore/TriviaGame">Trivia Game Repository</a>
         </div> -->
-   </section>
-
+      </section>
 </div>
- <div class="container container-fluid">
-   <section class="main-section width100" >
-     <h1>Contact</h1>
 
-     <form id="contact-form">
-       <ul>
-         <li>
-           <label for="name">Name</label>
-           <input type="text" id="name" name="name" placeholder="Abigail Ettore" required="required">
-         </li>
-         <li>
-           <label for="email">Email</label>
-           <input type="email" id="email" name="email" placeholder="aettore1@fordham.edu" required="required">
-         </li>
-         <li>
-           <label for="message">Message</label>
-           <textarea id="message" name="message" placeholder="Type your message here" required="required"></textarea>
-         </li>
-       </ul>
-       <input type="submit">
-     </form>
-
-   </section>
-</div>
  <footer>
    <div class="container">
      Copyright &copy;
