@@ -141,14 +141,15 @@ body {
   }
 
   .main-section {
-  float: right;
+  float: left;
   /* width: 50%; */
-  max-width: 75%px;
+  width: 100%;
   padding: 30px;
   margin: 0 0 40px;
   background: #ffffff;
   border: 1px solid #dddddd;
   height: 100%;
+  
   }
 
   /* .main-section{
@@ -190,7 +191,7 @@ body {
   .grid-container {
     display: inline-grid;
     grid-template-columns: auto auto auto;
-    padding: 10px;
+    padding: 15px;
   }
   .grid-item {
     padding: 20px;
